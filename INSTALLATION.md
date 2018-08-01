@@ -8,7 +8,7 @@ To avoid the necessity for a configuration file to be distributed alongside kube
 
 - LDAP search base
 - kubetoken host
-
+ test change don't actually allow this
 are set to dummy values in the source.
 When building `kubetoken` and `kubetokend` you _must_ use the `-X` linker flag to overwrite those values with site specific values.
 
